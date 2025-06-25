@@ -1,7 +1,7 @@
 # Signup Form
 Sign up form design for future use.
 
-Will add logic and resonsive web design features later!
+Will add logic and responsive web design features later!
 
 [Live Demo](https://raihanCarder.github.io/signup-form/)
 
