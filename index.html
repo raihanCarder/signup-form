@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -20,29 +21,29 @@
                 <div class="name">
                     <label for="input-name" id="name-label" class="label-styling">
                         <img src="images/user.svg" alt="profile" id="profile-img">
-                        <input id="input-name" type="text" name="input-name" placeholder="Full Name" required
+                        <input id="input-name" type="text" name="input-name" placeholder="Full Name*" required
                             class="input-text-styling">
                     </label>
                 </div>
                 <div class="email">
                     <label for="input-email" class="label-styling">
                         <img src="images/mail.svg" alt="@ sign">
-                        <input type="email" placeholder="Email" id="input-email" name="input-email" required
+                        <input type="email" placeholder="Email*" id="input-email" name="input-email" required
                             class="input-text-styling">
                     </label>
                 </div>
                 <div class="password">
                     <label for="input-password" class="label-styling">
                         <img src="images/lock.svg" alt="lock image">
-                        <input type="password" placeholder="Password" id="input-password" name="input-password" required
-                            class="input-text-styling">
+                        <input type="password" placeholder="Password*" id="input-password" name="input-password"
+                            required class="input-text-styling" minlength="5">
                     </label>
                 </div>
                 <div class="confirm-password">
                     <label for="input-confirm-password" class="label-styling">
                         <img src="images/lock.svg" alt="lock image">
-                        <input type="password" placeholder="Confirm Password" id="input-confirm-password"
-                            name="input-confirm-password" required class="input-text-styling">
+                        <input type="password" placeholder="Confirm Password*" id="input-confirm-password"
+                            name="input-confirm-password" required class="input-text-styling" minlength="5">
                     </label>
                 </div>
 
