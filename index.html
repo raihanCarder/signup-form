@@ -9,6 +9,59 @@
 </head>
 
 <body>
+    <form action="" method="post">
+        <div class="signup-section">
+            <div class="header">
+                <h1>Sign up</h1>
+                <p>Create an account <strong>today!</strong></p>
+            </div>
+
+            <div class="information">
+                <div class="name">
+                    <label for="input-name" id="name-label" class="label-styling">
+                        <img src="images/user.svg" alt="profile" id="profile-img">
+                        <input id="input-name" type="text" name="input-name" placeholder="Full Name" required
+                            class="input-text-styling">
+                    </label>
+                </div>
+                <div class="email">
+                    <label for="input-email" class="label-styling">
+                        <img src="images/mail.svg" alt="@ sign">
+                        <input type="email" placeholder="Email" id="input-email" name="input-email" required
+                            class="input-text-styling">
+                    </label>
+                </div>
+                <div class="password">
+                    <label for="input-password" class="label-styling">
+                        <img src="images/lock.svg" alt="lock image">
+                        <input type="password" placeholder="Password" id="input-password" name="input-password" required
+                            class="input-text-styling">
+                    </label>
+                </div>
+                <div class="confirm-password">
+                    <label for="input-confirm-password" class="label-styling">
+                        <img src="images/lock.svg" alt="lock image">
+                        <input type="password" placeholder="Confirm Password" id="input-confirm-password"
+                            name="input-confirm-password" required class="input-text-styling">
+                    </label>
+                </div>
+
+                <div class="newsletter">
+                    <label for="subscribe" id="newsletter-label">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        Subscribe to newsletter?
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="submit">
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <span class="highlight">Log in</span></p>
+            </div>
+
+        </div>
+    </form>
 
 </body>
 
